@@ -23,7 +23,7 @@ This document outlines the comprehensive planning, architecture, and development
 
 ## 2. Technical Architecture
 
-### 2.1 Technology Stack Selection
+
 | Technology | Purpose |
 |------------|---------|
 | React 18 | UI Framework 
