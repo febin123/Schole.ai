@@ -33,4 +33,7 @@ This document outlines the comprehensive planning, architecture, and development
 | Vite | Build Tool 
 
 ## 3 . User Interface Wireframe (Frontend Focus)
-![System architecture](Draw.io/UserInterface.drawio.png)
+![Diagram](Draw.io/UserInterface.png)
+
+## 4. Application State flow
+![Diagram](Draw.io/Application%20State%20Flow.png)
