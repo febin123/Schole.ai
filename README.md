@@ -1,7 +1,6 @@
 
 ## **📝 Project Planning Document (Word File Content)**
 
-```markdown
 # Scholé Learning Journey - Project Planning Document
 
 ## Executive Summary
@@ -36,4 +35,4 @@ This document outlines the comprehensive planning, architecture, and development
 ![Diagram](Draw.io/UserInterface.png)
 
 ## 4. Application State flow
-![Diagram](Draw.io/Application%20State%20Flow.png)
+![Diagram](Draw.io/ApplicationStateFlow.png)
