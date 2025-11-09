@@ -38,34 +38,34 @@ This document outlines the comprehensive planning, architecture, and development
 ![Diagram](Draw.io/ApplicationStateFlow.png)
 
 ## 5. File Structure
-schole-learning-journey/
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-├── index.html
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── styles/
-    │   └── globals.css
-    ├── data/
-    │   └── mockData.js
-    ├── hooks/
-    │   ├── useCourses.js
-    │ 
-    └── components/
-        ├── Header/
-        │   ├── UserGreeting.jsx
-        │   └── OverallProgressRing.jsx
-        ├── Sidebar/
-        │   ├── index.jsx
-        │   ├── CategoryFilter.jsx
-        │   └── DateRangeFilter.jsx
-        └── Dashboard/
-            ├── ViewToggle.jsx
-            ├── CourseList/
-            │   ├── index.jsx
-            │   └── CourseCard.jsx
-            └── CourseDetails/
-                └── DetailsPanel.jsx
+schole-learning-journey/ <br>
+├── package.json   <br>
+├── vite.config.js  <br>
+├── tailwind.config.js <br>
+├── postcss.config.js <br>
+├── index.html <br>
+└── src/ <br>
+    ├── main.jsx <br>
+    ├── App.jsx <br>
+    ├── styles/ <br>
+    │   └── globals.css <br>
+    ├── data/  <br>
+    │   └── mockData.js <br>
+    ├── hooks/ <br>
+    │   ├── useCourses.js <br>
+    │  <br>
+    └── components/ <br>
+        ├── Header/ <br>
+        │   ├── UserGreeting.jsx <br>
+        │   └── OverallProgressRing.jsx <br>
+        ├── Sidebar/ <br>
+        │   ├── index.jsx <br>
+        │   ├── CategoryFilter.jsx <br>
+        │   └── DateRangeFilter.jsx  <br>
+        └── Dashboard/ <br>
+            ├── ViewToggle.jsx <br>
+            ├── CourseList/ <br>
+            │   ├── index.jsx <br>
+            │   └── CourseCard.jsx <br>
+            └── CourseDetails/ <br>
+                └── DetailsPanel.jsx <br>
