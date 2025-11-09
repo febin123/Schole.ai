@@ -36,3 +36,36 @@ This document outlines the comprehensive planning, architecture, and development
 
 ## 4. Application State flow
 ![Diagram](Draw.io/ApplicationStateFlow.png)
+
+## 5. File Structure
+schole-learning-journey/
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── index.html
+└── src/
+    ├── main.jsx
+    ├── App.jsx
+    ├── styles/
+    │   └── globals.css
+    ├── data/
+    │   └── mockData.js
+    ├── hooks/
+    │   ├── useCourses.js
+    │ 
+    └── components/
+        ├── Header/
+        │   ├── UserGreeting.jsx
+        │   └── OverallProgressRing.jsx
+        ├── Sidebar/
+        │   ├── index.jsx
+        │   ├── CategoryFilter.jsx
+        │   └── DateRangeFilter.jsx
+        └── Dashboard/
+            ├── ViewToggle.jsx
+            ├── CourseList/
+            │   ├── index.jsx
+            │   └── CourseCard.jsx
+            └── CourseDetails/
+                └── DetailsPanel.jsx
