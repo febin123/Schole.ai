@@ -1,10 +1,13 @@
 import React from 'react';
-import { categories } from '../../data/mockData';
+import { CategoryFilter } from './CategoryFilter';
+import { DateRangeFilter } from './DateRangeFilter';
 
 export const Sidebar = ({ filters, onFiltersChange, onClearFilters }) => {
   const hasActiveFilters = 
     filters.categories.length > 0 || 
-    filters.status.length > 0;
+    filters.status.length > 0 || 
+    filters.dateRange.start || 
+    filters.dateRange.end;
 
   return (
     <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-200 h-fit">
@@ -44,28 +47,15 @@ export const Sidebar = ({ filters, onFiltersChange, onClearFilters }) => {
           </div>
         </div>
 
-        {/* Category Filter */}
-        <div className="space-y-3">
-          <h3 className="font-semibold text-gray-900">Categories</h3>
-          <div className="space-y-2">
-            {categories.map(category => (
-              <label key={category} className="flex items-center space-x-3 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={filters.categories.includes(category)}
-                  onChange={(e) => {
-                    const newCategories = e.target.checked
-                      ? [...filters.categories, category]
-                      : filters.categories.filter(c => c !== category);
-                    onFiltersChange({ categories: newCategories });
-                  }}
-                  className="rounded border-gray-300 text-purple-600 focus:ring-purple-500"
-                />
-                <span className="text-gray-700">{category}</span>
-              </label>
-            ))}
-          </div>
-        </div>
+        <CategoryFilter
+          selectedCategories={filters.categories}
+          onCategoryChange={(categories) => onFiltersChange({ categories })}
+        />
+
+        <DateRangeFilter
+          dateRange={filters.dateRange}
+          onDateRangeChange={(dateRange) => onFiltersChange({ dateRange })}
+        />
       </div>
     </div>
   );
