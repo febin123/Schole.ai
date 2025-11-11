@@ -6,6 +6,18 @@
 ## Executive Summary
 This document outlines the comprehensive planning, architecture, and development process for the Scholé Learning Journey application. The project demonstrates modern frontend development practices while meeting all specified requirements with enhanced user experience features.
 
+- Live Application: https://scholeai.netlify.app/
+
+- Source Code: https://github.com/febin123/Schole.ai
+
+## Step-by-Step Installation
+### Step 1: Clone the Repository
+- Clone the project from GitHub <br>
+git clone https://github.com/febin123/Schole.ai.git
+
+- Navigate to the project directory <br>
+cd Schole.ai
+
 ## 1. Project Requirements Analysis
 
 ### 1.1 Core Requirements (From HR)
@@ -19,6 +31,7 @@ This document outlines the comprehensive planning, architecture, and development
 - Smart status transitions
 - Study session tracking
 - Professional UI/UX design
+- Tired to include LLM(Large Language Model) & RAG(Retrieval-Augmented Generation)
 - Mobile-responsive layout
 
 ## 2. Technical Architecture
@@ -31,13 +44,8 @@ This document outlines the comprehensive planning, architecture, and development
 | Tailwind CSS | Styling 
 | Vite | Build Tool 
 
-## 3 . User Interface Wireframe (Frontend Focus)
-![Diagram](Draw.io/UserInterface.png)
 
-## 4. Application State flow
-![Diagram](Draw.io/ApplicationStateFlow.png)
-
-## 5. File Structure
+## 3. File Structure
 schole-learning-journey/ <br>
 ├── package.json   <br>
 ├── vite.config.js  <br>
@@ -55,6 +63,10 @@ schole-learning-journey/ <br>
     │   ├── useCourses.js <br>
     │  <br>
     └── components/ <br>
+    │   ├── AI/                          
+    │   ├── LearningPathGenerator.jsx
+    │   ├── StudyAssistant.jsx
+    │   └── LearningInsights.jsx
         ├── Header/ <br>
         │   ├── UserGreeting.jsx <br>
         │   └── OverallProgressRing.jsx <br>
@@ -69,3 +81,14 @@ schole-learning-journey/ <br>
             │   └── CourseCard.jsx <br>
             └── CourseDetails/ <br>
                 └── DetailsPanel.jsx <br>
+## 4 . User Interface Wireframe (Frontend Focus Phase-1)
+![Diagram](Draw.io/UserInterface.png)
+
+## 5. Application State flow: Phase-1
+![Diagram](Draw.io/ApplicationStateFlow.png)
+
+## 6 . User Interface Wireframe (Frontend Focus Phase-2)
+![Diagram](Draw.io/UserInterfacePhase2.png)
+
+## 7 . Application State flow: Phase-2
+![Diagram](Draw.io/UserInterfacePhase2.png)
