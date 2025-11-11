@@ -18,6 +18,15 @@ git clone https://github.com/febin123/Schole.ai.git
 - Navigate to the project directory <br>
 cd Schole.ai
 
+
+### Step 2: Install Dependencies
+# Install all required packages
+npm install <br>
+
+### Step 3: Start the Development Server
+# Start the development server
+npm run dev <br>
+
 ## 1. Project Requirements Analysis
 
 ### 1.1 Core Requirements (From HR)
@@ -64,9 +73,9 @@ schole-learning-journey/ <br>
     │  <br>
     └── components/ <br>
     │   ├── AI/                          
-    │   ├── LearningPathGenerator.jsx
-    │   ├── StudyAssistant.jsx
-    │   └── LearningInsights.jsx
+    │   ├── LearningPathGenerator.jsx <br>
+    │   ├── StudyAssistant.jsx <br>
+    │   └── LearningInsights.jsx <br>
         ├── Header/ <br>
         │   ├── UserGreeting.jsx <br>
         │   └── OverallProgressRing.jsx <br>
