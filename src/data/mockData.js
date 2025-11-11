@@ -1,6 +1,6 @@
 export const mockUser = {
   id: 1,
-  name: "Febin Wilson",
+  name: "Febin Skariya",
   overallProgress: 65,
   courses: [
     {
