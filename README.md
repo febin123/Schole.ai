@@ -20,11 +20,11 @@ cd Schole.ai
 
 
 ### Step 2: Install Dependencies
-# Install all required packages
+<br>
 npm install <br>
 
 ### Step 3: Start the Development Server
-# Start the development server
+<br>
 npm run dev <br>
 
 ## 1. Project Requirements Analysis
