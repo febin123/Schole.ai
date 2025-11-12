@@ -100,4 +100,4 @@ schole-learning-journey/ <br>
 ![Diagram](Draw.io/UserInterfacePhase2.png)
 
 ## 7 . Application State flow: Phase-2
-![Diagram](Draw.io/UserInterfacePhase2.png)
+![Diagram](Draw.io/WorkFlow-Phase2.png)
